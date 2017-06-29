@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(48, 10, 36, 0.85);
+  color: #ffffff;
+  font-family: 'Ubuntu', monospace;
+  font-size: 12pt;
+}
+#toolbar {
+  background-color: #333333;
+  height: 24px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+#xbtn, #minbtn {
+  -webkit-app-region: no-drag;
+  border-radius: 100px;
+  padding: 6px;
+  margin: 5px;
+  width: 0px;
+  height: 0px;
+  display: block;
+}
+#xbtn {
+  background-color: #fb4d00;
+}
+#minbtn {
+  background-color: #00aa00;
+  margin-left: 0;
+}
+#xbtn:hover {
+  background-color: #fb7700;
+}
+#minbtn:hover {
+  background-color: #00ee00;
+}
+#xbtn:active {
+  background-color: #fb2200;
+}
+#minbtn:active {
+  background-color: #008000;
+}
+#titlebar {
+  margin: 4px 0 4px 40%;
+}
+#cmdline {
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 10pt;
+  padding: 5px;
+  word-break: break-all;
+  overflow-y: auto;
+}
+#cmdline pre {
+  margin: 0;
+}
