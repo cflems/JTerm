@@ -37,7 +37,7 @@ function createWindow () {
     protocol: 'file:',
     slashes: true
   }));
-  // windows[idx].webContents.openDevTools();
+  windows[idx].webContents.openDevTools();
 
   windows[idx].on('closed', function () {
     pullfrom(windows, idx);
