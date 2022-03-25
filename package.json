@@ -11,7 +11,7 @@
   "author": "Carson Fleming",
   "license": "Public Domain",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "~13.6.6"
   },
   "dependencies": {
     "jquery": "^3.2.1",
